@@ -7,14 +7,7 @@
     elementos.innerHTML='<span> En este sitio encontrarás un album de fotos inspirado en el snippet de <a href="https://codepen.io/taj1uddin/pen/eYVrLKy">Codepen - Taj Uddin</a>.</span> '
    
     
-    svg = document.querySelector("svg")
- 
-    img = document.createElement("img")
-
   
-   img.innerHTML ='url: https://images.unsplash.com/photo-1653942786759-f3caff948222?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60, alt: camino}'
-   let parentSvg=svg.parentNode
-   parentSvg.replaceChild(img,svg)
    
    }
 
